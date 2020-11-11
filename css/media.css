@@ -1,0 +1,56 @@
+    @media screen and (max-width: 1370px) {
+        body {
+            height: 100vh;
+            overflow: hidden;
+        }
+        .hwrap img {
+            display: none;
+        }
+        #radio1:checked~.fslide {
+            margin-left: -0%;
+        }
+        #radio2:checked~.fslide {
+            margin-left: -28%;
+        }
+        #radio3:checked~.fslide {
+            margin-left: -56%;
+        }
+        #radio4:checked~.fslide {
+            margin-left: -84%;
+        }
+        .search-box {
+            left: 87%;
+            top: 8%;
+        }
+        .search-btn {
+            margin-top: -29px;
+        }
+        .manual {
+            top: 19%;
+        }
+    }
+    
+    @media screen and (max-width: 1024px) {
+        body {
+            height: 100vh;
+            overflow: hidden;
+        }
+        .hwrap img {
+            display: none;
+        }
+        #radio1:checked~.fslide {
+            margin-left: -0%;
+        }
+        #radio2:checked~.fslide {
+            margin-left: -40%;
+        }
+        #radio3:checked~.fslide {
+            margin-left: -81%;
+        }
+        #radio4:checked~.fslide {
+            margin-left: -108%;
+        }
+        header {
+            width: 100%;
+        }
+    }
